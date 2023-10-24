@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.bc-black {
+    background-color: black;
+}
+
+.bc-lightblack {
+    background-color: #090B12;
+}
+
+.bc-darkgrey {
+    background-color: #282828;
+}
+
+.bc-darkblue {
+    background-color: #141922;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 100%;
+}
+
+.header-container {
+    
+}
+
+.call-to-action {
+    
+}
+
+.task-bar {
+    
+}
