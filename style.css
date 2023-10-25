@@ -151,17 +151,32 @@ Account-section
     font-weight: bold;
 }
 
+/*--Main Container--*/
 
-
-/*-- --*/
 .main-container {
     width: calc(100% - 250px);
     height: calc(100vh - 100px);
 }
 
+/*Call-To-Action*/
+
 .call-to-action {
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.call-to-action button {
+    color: white;
+    background: #090B12;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .main-section {
