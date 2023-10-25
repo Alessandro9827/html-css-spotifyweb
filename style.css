@@ -65,6 +65,9 @@ ul {
 .header-container {
     width: 250px;
     height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo-section img {
@@ -125,7 +128,28 @@ ul {
     padding-right: 0.5rem;
 }
 
+/*
+Header-down
+Account-section
+*/
 
+.account-section {
+    padding: 0 0 2rem 2rem;
+}
+
+.download-app {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+.account-name {
+    padding-top: 1rem;
+}
+
+.account-name span {
+    font-weight: bold;
+}
 
 
 
