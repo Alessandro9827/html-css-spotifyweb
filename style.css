@@ -28,6 +28,25 @@
 .container {
     width: 100%;
 }
+
+.color-white {
+    color: white;
+}
+
+.color-light-grey {
+    color: lightgray;
+}
+
+/*
+.display-none {
+    display: none;
+}
+*/
+
+.small-logo-none{
+    display: none;
+}
+
 /*--Aside bar laterale/ Header--*/
 
 .header-container {
@@ -35,9 +54,7 @@
     height: calc(100vh - 100px);
 }
 
-.small-logo-none {
-    display: none;
-}
+
 
 /*-- --*/
 .main-container {
