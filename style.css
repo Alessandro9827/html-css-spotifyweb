@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/*General Rules*/
 .bc-black {
     background-color: black;
 }
@@ -28,12 +28,18 @@
 .container {
     width: 100%;
 }
+/*--Aside bar laterale/ Header--*/
 
 .header-container {
     width: 250px;
     height: calc(100vh - 100px);
 }
 
+.small-logo-none {
+    display: none;
+}
+
+/*-- --*/
 .main-container {
     width: calc(100% - 250px);
     height: calc(100vh - 100px);
