@@ -183,8 +183,29 @@ Account-section
     height: calc(100% - 100px);
 }
 
+/*Footer*/
+/*Task Bar*/
+
 .task-bar {
     width: 100%;
     height: 100px;
     position: fixed;
+    display: flex;
+}
+
+.width-3 {
+    width: calc(100% / 3);
+}
+/*Barra del volume*/
+.hp_slide{
+    width: 100%;
+    background:white;
+    height: 10px;
+    border-radius: 30px;
+}
+.hp_range{
+    width:30%;
+    background:black;
+    height: 10px;
+    border-radius: 30px;
 }
