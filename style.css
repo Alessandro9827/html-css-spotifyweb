@@ -189,6 +189,7 @@ Account-section
     position: relative;
     left: 250px;
     top: 100px;
+    padding-bottom: 10rem ;
 }
 
 .recently-song {
@@ -209,6 +210,12 @@ Account-section
 
 .album-img img {
     width: 100%;
+}
+
+.create-for {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 /*Nav Link*/
