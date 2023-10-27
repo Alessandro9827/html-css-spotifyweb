@@ -218,6 +218,12 @@ Account-section
     flex-wrap: wrap;
 }
 
+.popolar-artist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 /*Nav Link*/
 
 .nav-link {
@@ -241,6 +247,7 @@ Account-section
     height: 100px;
     position: fixed;
     display: flex;
+    z-index: 2;
 }
 
 .width-3 {
