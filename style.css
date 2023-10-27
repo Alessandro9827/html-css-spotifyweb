@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #141922;
 }
 
 .bc-black {
@@ -68,6 +69,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
 }
 
 .logo-section img {
@@ -167,6 +169,8 @@ Account-section
     justify-content: end;
     align-items: center;
     padding-right: 1rem;
+    position: fixed;
+    z-index: 1;
 }
 
 .call-to-action button {
@@ -179,8 +183,47 @@ Account-section
     font-weight: bold;
 }
 
+/*Main Section*/
+
 .main-section {
-    height: calc(100% - 100px);
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+
+.recently-song {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.width-album {
+    margin: 1rem;
+    width: calc((100% / 2) - 2rem);
+}
+
+.album-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.album-img img {
+    width: 100%;
+}
+
+/*Nav Link*/
+
+.nav-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-link span {
+    color: #696C71;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem .5rem;
 }
 
 /*Footer*/
@@ -202,20 +245,18 @@ Account-section
     display: flex;
 }
 
-.song-cover {
-    width: 40%;
-}
 
 .song-cover img {
-    width: 85%;
+    width: 60px;
+    height: 80px;
     padding-top: 1rem;
 }
 
 .song-name {
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0 .5rem;
 }
 
 .song-name span:first-child {
@@ -224,7 +265,7 @@ Account-section
 }
 
 .song-name span:last-child {
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .add-song {
@@ -236,7 +277,7 @@ Account-section
 }
 
 .fa-heart {
-    padding-bottom: 0.4rem;
+    padding-bottom: .4rem;
 }
 
 /*tarcker change song play/stop song*/
@@ -244,7 +285,7 @@ Account-section
 .tracker {
     padding: 1.5rem 0 1rem 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .range-section {
@@ -262,6 +303,7 @@ Account-section
 }
 
 /*Barra del volume*/
+
 .hp-slide {
     width: 100%;
     background: #5A5A5A;
@@ -276,24 +318,35 @@ Account-section
     border-radius: 30px;
 }
 
-/*-----*/
+/*---Volume Commands Section---*/
 
 .volume-commands {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
+}
+
+.padding-right-05 {
+    padding-right: .5rem;
+}
+
+.padding-right-1 {
+    padding-right: 1rem;
 }
 
 .hp-slide-volume {
-    width: 50%;
+    width: 110px;
     background: #5A5A5A;
     height: 5px;
     border-radius: 30px;
     margin-top: .1rem;
 }
+
 .hp-range-volume {
     width:30%;
     background: #C1C1C1;
     height: 5px;
     border-radius: 30px;
 }
+
+/**/
