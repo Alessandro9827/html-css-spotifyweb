@@ -447,3 +447,26 @@ Account-section
         width: calc((100% / 6) - 2rem);
     }
 }
+
+/*--Hover--*/
+
+.hover-bold-white:hover {
+    font-weight: bold;
+    color: white;
+}
+
+.hp-slide:hover {
+    .hp-range {
+        background-color: green;
+    }
+}
+
+.hp-slide-volume:hover {
+    .hp-range-volume {
+        background-color: green;
+    }
+}
+
+.album-img:hover {
+    
+}
