@@ -43,6 +43,14 @@ body {
     color: lightgray;
 }
 
+.color-white { 
+    color: white;
+}
+
+.color-grey {
+    color: #76797D;
+}
+
 /*
 .display-none {
     display: none;
@@ -70,6 +78,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     position: fixed;
+    z-index: 2;
 }
 
 .logo-section img {
@@ -224,6 +233,27 @@ Account-section
     flex-wrap: wrap;
 }
 
+.title-section {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.under-title {
+    font-size: .8rem;
+    margin: 0.5rem 1rem;
+}
+
+.album-name h2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.album-name span {
+    font-size: .8rem;
+    display: block;
+    text-align: center;
+}
+
 /*Nav Link*/
 
 .nav-link {
@@ -247,7 +277,7 @@ Account-section
     height: 100px;
     position: fixed;
     display: flex;
-    z-index: 2;
+    z-index: 3;
 }
 
 .width-3 {
@@ -363,4 +393,27 @@ Account-section
     border-radius: 30px;
 }
 
-/**/
+/*--Media Query--*/
+
+@media screen and (max-width: 552px) {
+    
+    .header-container {
+        width: 90px;
+    }
+
+    .main-container {
+        width: calc(100% - 90px);
+    }
+
+    .main-section {
+        left: 90px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .small-logo-none {
+        display: block;
+    }
+}
