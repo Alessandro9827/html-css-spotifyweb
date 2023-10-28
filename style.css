@@ -413,7 +413,22 @@ Account-section
         display: none;
     }
 
-    .small-logo-none {
+    .logo-section .small-logo-none {
         display: block;
+        width: 84px;
+        height: 60px;
+        padding: 0.5rem 0.5rem;
     }
+
+    .download-app {
+        padding-bottom: 0.5rem;
+        font-size: 14px;
+        border-bottom: 1px solid transparent;
+    }
+
+    .fa-circle-down {
+        padding-left: 0.2rem;
+    }
+
 }
+
