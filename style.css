@@ -69,6 +69,8 @@ ul {
     padding-bottom: 1rem;
 }
 
+
+
 /*--Aside bar laterale/ Header--*/
 
 .header-container {
@@ -219,6 +221,10 @@ Account-section
 
 .album-img img {
     width: 100%;
+}
+
+.album-img {
+    position: relative;
 }
 
 .create-for {
@@ -467,10 +473,6 @@ Account-section
     }
 }
 
-.album-img {
-    position: relative;
-}
-
 .disc-hover {
     display: none;
     justify-content: center;
@@ -486,4 +488,14 @@ Account-section
 
 .album-img:hover .disc-hover {
     display: flex;
+}
+
+.call-to-action button:hover {
+    color: white;
+    background: #090B12;
+    padding: 1rem 2.2rem;
+    border-radius: 30px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
